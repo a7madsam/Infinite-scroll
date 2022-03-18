@@ -19,7 +19,6 @@ function imagesLoaded() {
         readyToLoad = true;
     }
 }
-
 //for disply photos for users
 function displayPhotos() {
     imagesLoadedCount = 0;
@@ -46,7 +45,7 @@ async function getPhotos() {
         displayPhotos();
     }
     catch (e) {
-        console.log(e);
+        //catch error here
     }
 }
 
